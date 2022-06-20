@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Instagram</title>
 </head>
 <body>
     <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
+        <div>
+            <img src="./img/instagram_cellphone.png" alt="Phone" class="instagram-phone">
         </div>
         <div class="instagram-continue">
             <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                <img src="./img/instagram.png" alt="Instagram" class="instagram-logo">
+                <input type="text" id="uname" name="username" placeholder="Telefone, nome de usuário ou email">
+                <input type="text" id="pass" name="password" placeholder="Senha">
+                <a href="#" class="instagram-login">Entrar</a>
+                <div class="division">
+                    <span class="line"></span>
+                    <span class="or">ou</span>
+                    <span class="line"></span>
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
+                <div class="face">
+                    <span class="face-icon"></span>
+                    <a href="#" class="enter-facebook">Entrar com Facebook</a>
+                </div>
+                <a href="#" class="forgot">Esqueceu a senha?</a>
+
             </div>
             <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
                 <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
+                    Não tem conta?
+                    <span class="link-blue">Cadastre-se</span>
                 </p>
             </div>
             <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
+                <p>Obtenha o aplicativo</p>
                 <div class="download">
                     <a href="#" class="app-download"></a>
                     <a href="#" class="app-download"></a>
